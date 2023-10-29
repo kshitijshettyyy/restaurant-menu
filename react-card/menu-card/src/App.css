@@ -1,0 +1,145 @@
+.product-space {
+  padding: 50px 0;
+}
+
+.main-div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  margin-bottom: 15px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column; /* Stack items vertically on small screens */
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 5px;
+}
+
+.title h4 {
+  font-size: 24px; /* Increased font size for the title */
+  font-family: 'Arial Black', sans-serif; /* Use a gothic-style font */
+  color: #0c6be7ef; /* Text color */
+  text-align: center; /* Center-align the text */
+  margin-bottom: 10px; /* Add some bottom margin for spacing */
+  text-shadow: 1px 1px 2px rgba(16, 91, 24, 0.3); /* Add a subtle text shadow */
+}
+
+
+.price-button {
+  background-color: rgb(27, 228, 138); /* Set the background color to blue */
+  border: none; /* Remove the border for a cleaner look */
+  color: white; /* Set text color to white for better contrast */
+  padding: 8px 12px; /* Add padding for button appearance */
+  cursor: pointer;
+  font-size: 18px; /* Font size for the price button */
+  transition: background-color 0.3s; /* Add transition for hover effect */
+}
+
+.price-button:hover {
+  background-color: rgb(20, 143, 215); /* Darken the background color on hover */
+}
+.content p {
+  font-size: 20px;
+  padding: 12px 8px;
+}
+
+.content {
+  padding-left: 10px;
+}
+
+.main-img img {
+  max-width: 400px; /* Increase max-width for a larger image */
+  height: auto; /* Let the height adjust automatically to maintain aspect ratio */
+  border-radius: 10px; /* Add rounded corners to the image */
+}
+.content h4{
+  font-size: 22px;
+  text-transform: capitalize;
+}
+.filterItems{
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  background-color: rgba(39, 188, 29, 0.553);
+  color: #fff;
+  font-weight: 600;
+  margin: 0 20px;
+ border-radius: 3px;
+ text-align: center;
+}
+.category-tabs{
+  text-align: center;
+}
+
+/* Media Query for Medium Screens */
+@media only screen and (max-width: 1200px) {
+  .title {
+    font-size: 18px; /* Adjust font size for medium screens */
+  }
+
+  .main-img img {
+    max-width: 350px; /* Increase max-width for better appearance on laptops */
+  }
+  
+}
+
+/* Media Query for Small Screens */
+@media only screen and (max-width: 600px) {
+  .title {
+    font-size: 16px; /* Adjust font size for smaller screens */
+  }
+
+  .main-img img {
+    width: 100%; /* Make the image take the full width of its container */
+    max-width: 250px; /* Reset max-width for smaller screens */
+  }
+}
+/* Styles for all screen sizes */
+.category-tabs {
+  text-align: center;
+}
+
+.filterItems {
+  padding: 10px 15px;
+  margin: 5px;
+  font-size: 16px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Styles for tablets and larger screens */
+@media (min-width: 768px) {
+  .category-tabs {
+    display: flex;
+    justify-content: center;
+  }
+
+  .filterItems {
+    margin: 0 10px;
+  }
+  .content {
+    max-width: 600px; /* Adjust the max-width as needed */
+    margin: 0 auto; /* Center the content on larger screens */
+  }
+}
+
+/* Styles for mobile devices */
+@media (max-width: 767px) {
+  .category-tabs {
+    display: block;
+  }
+
+  .filterItems {
+    display: block;
+    margin: 5px auto;
+  }
+  .content p {
+    font-size: 14px; /* Adjust the font size for better readability on smaller screens */
+    padding: 8px; /* Adjust the padding for smaller screens */
+  }
+}

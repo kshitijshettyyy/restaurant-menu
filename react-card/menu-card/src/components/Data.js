@@ -1,0 +1,51 @@
+const menu = [
+{
+    id:1,
+    title:'dosa',
+    category:'Breakfast',
+    price:20,
+    img:'./images/item-1.jpg',
+    desc:'ljkdhdbkjdk.jbdlbdshlorem',
+},
+{
+    id:2,
+    title:'milkshake',
+    category:'Shakes',
+    price:25,
+    img:'./images/item-4.jpg',
+    desc:'ljkdhdbkjdk.jbdlbdshlorem',
+},
+{
+    id:3,
+    title:'chapathi',
+    category:'Dinner',
+    price:30,
+    img:'./images/item-3.jpg',
+    desc:'ljkdhdbkjdk.jbdlbdshlorem',
+},
+{
+    id:4,
+    title:'meals',
+    category:'Lunch',
+    price:40,
+    img:'./images/item-2.jpg',
+    desc:'ljkdhdbkjdk.jbdlbdshlorem',
+},
+{
+    id:5,
+    title:'pulav',
+    category:'Lunch',
+    price:60,
+    img:'./images/item-5.jpg',
+    desc:'ljkdhdbkjdk.jbdlbdshlorem',
+},
+{
+    id:6,
+    title:'idli',
+    category:'Breakfast',
+    price:45,
+    img:'./images/item-7.jpg',
+    desc:'ljkdhdbkjdk.jbdlbdshlorem',
+},
+];
+export default menu;

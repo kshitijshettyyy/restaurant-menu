@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(pngtree-university-canteen-crowd-photography-image_839403.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+}
+
+
+
+.aboutus-image {
+    max-width: 100%;
+}
+
+.aboutus-text {
+    margin-top: 20px;
+}
+.desktop-1-child {
+    position: absolute;
+    top: -1px;
+    left: 1335px;
+    background-color: #c21616;
+    width: 99px;
+    height: 46px;
+  }
+  .desktop-1-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-gray-100);
+    width: 1440px;
+    height: 46px;
+  }
+  body{
+    background:-o-linear-gradient(rgba())
+  }
+  .container{
+    background-color: #0082e6;
+  }
+  label.logo{
+    color:white;
+    font-size: 35px;
+    line-height: 80px;
+    padding:0 100px;
+    font-weight: bold;
+  }
+
+  a.active,a:hover{
+    background: #1b9bff;
+    transition: .5s;
+  }
+
+  
+
+  .rectangle-div {
+    position: absolute;
+    top: 124px;
+    left: 96px;
+    background-color: rgba(227, 224, 224, 0.72);
+    width: 1267px;
+    height: 805px;
+  }
+  .desktop-1-child1,
+  .rectangle-icon {
+    position: absolute;
+    top: 154px;
+    left: 134px;
+    width: 355px;
+    height: 195px;
+    object-fit: cover;
+  }
+  .desktop-1-child1 {
+    top: 309px;
+    left: 326px;
+    width: 257px;
+    height: 218px;
+  }
+  .desktop-1-child2,
+  .desktop-1-child3 {
+    position: absolute;
+    top: 482px;
+    left: 134px;
+    width: 355px;
+    height: 222px;
+    object-fit: cover;
+  }
+  .desktop-1-child3 {
+    top: 671px;
+    left: 326px;
+    width: 257px;
+    height: 251px;
+  }
+  .about-us {
+    position: absolute;
+    top: 194px;
+    font-size: 42px;
+    left: 800px;
+
+    font-weight: 800;
+    color: var(--color-gray-400);
+  }
+
+  .logout,
+  .welcome-to-nmamit-container {
+    position: absolute;
+    font-size: var(--font-size-xl);
+  }
+  .welcome-to-nmamit-container {
+    top: 266px;
+    left: 610px;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--color-gray-500);
+    text-align: justify;
+    display: inline-block;
+    width: 725px;
+    height: 384px;
+  }

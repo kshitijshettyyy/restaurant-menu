@@ -1,0 +1,133 @@
+.frame-child,
+.frame-item {
+  position: absolute;
+  top: 14px;
+  left: 5px;
+  background-color: var(--color-gainsboro-200);
+  width: 925px;
+  height: 610px;
+}
+.frame-item {
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-100);
+  width: 936px;
+  height: 59px;
+}
+.home,
+.menu,
+.nitte,
+.pricing {
+  position: absolute;
+  top: 19px;
+  left: 241px;
+  display: inline-block;
+  width: 39px;
+  height: 14px;
+}
+.home,
+.menu,
+.nitte {
+  top: 22px;
+  left: 16px;
+  width: 35px;
+}
+.home,
+.menu {
+  top: 19px;
+  left: 83px;
+  width: 34px;
+}
+.menu {
+  left: 166px;
+  width: 32px;
+}
+.frame-inner {
+  position: absolute;
+  top: 44px;
+  left: 0;
+  width: 936px;
+  height: 580px;
+  object-fit: cover;
+}
+.rectangle-div {
+  position: absolute;
+  top: 104px;
+  left: 86px;
+  background-color: var(--color-gainsboro-100);
+  width: 790px;
+  height: 486px;
+}
+.welcome-to-nmamit {
+  margin: 0;
+}
+.welcome-to-nmamit-container {
+  position: absolute;
+  top: 223px;
+  left: 358px;
+  font-weight: 100;
+  color: var(--color-gray-300);
+  display: inline-block;
+  width: 491px;
+  height: 264px;
+}
+.about-us,
+.aboutus {
+  position: absolute;
+  top: 19px;
+  left: 318px;
+  display: inline-block;
+  width: 50px;
+  height: 14px;
+}
+.about-us {
+  top: 135px;
+  left: 524px;
+  font-size: var(--font-size-5xl);
+  font-weight: 800;
+  color: var(--color-gray-200);
+  width: 109px;
+  height: 29px;
+}
+.rectangle-icon {
+  position: absolute;
+  top: 119px;
+  left: 102px;
+  width: 191px;
+  height: 112px;
+  object-fit: cover;
+}
+.frame-child1,
+.frame-child2,
+.frame-child3 {
+  position: absolute;
+  top: 217px;
+  left: 157px;
+  width: 168px;
+  height: 153px;
+  object-fit: cover;
+}
+.frame-child2,
+.frame-child3 {
+  top: 319px;
+  left: 100px;
+  width: 163px;
+  height: 158px;
+}
+.frame-child3 {
+  top: 431px;
+  left: 153px;
+  width: 175px;
+  height: 144px;
+}
+.rectangle-parent {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 623px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
